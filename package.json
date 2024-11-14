@@ -1,0 +1,22 @@
+{
+  "name": "ripplekit",
+  "version": "1.0.0",
+  "description": "RippleKit: Rippling with features.",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RokyXxX/Ripple.git"
+  },
+  "keywords": [
+    "framework"
+  ],
+  "author": "RokyBeast",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RokyXxX/Ripple/issues"
+  },
+  "homepage": "https://github.com/RokyXxX/Ripple#readme"
+}

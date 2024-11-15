@@ -4,7 +4,7 @@
   "description": "RippleKit: Rippling with features.",
   "main": "src/js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'Building Tree' && cd build && tree.vbs"
   },
   "repository": {
     "type": "git",

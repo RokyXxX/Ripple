@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/RokyXxX/Ripple/issues"
   },
-  "homepage": "https://github.com/RokyXxX/Ripple#readme"
+  "homepage": "https://github.com/RokyXxX/Ripple#readme",
+  "dependencies": {
+    "katex": "^0.16.11"
+  }
 }

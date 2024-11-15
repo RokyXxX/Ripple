@@ -1,4 +1,27 @@
-@import "~katex/dist/katex.min.css";
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("font/JetBrainsMono/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("font/JetBrainsMono/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("font/JetBrainsMono/JetBrainsMono-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("font/JetBrainsMono/JetBrainsMono-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -52,4 +75,11 @@ a:hover {
 a:visited {
   color: #582a9c;
   text-decoration: none;
+}
+
+code {
+  font: "JetBrains Mono";
+  color: #ffffff;
+  padding: 15px;
+  background-color: #212121;
 }/*# sourceMappingURL=RippleKit.css.map */

@@ -1,6 +1,6 @@
 @import "../../mixins/heading";
 @import '../../variables/colors';
-@import "~katex/dist/katex.min.css";
+@import '../../fonts/fonts';
 
 // Headings
 
@@ -43,4 +43,11 @@ a {
         color: $purple-600;
         text-decoration: none;
     }
+}
+
+code {
+    font: 'JetBrains Mono';
+    color: $white;
+    padding: 15px;
+    background-color: $gray-900;
 }

@@ -1,0 +1,8 @@
+// To generate h1, h2, he, h4, h5 & h6, in /typography
+
+@mixin heading($size, $weight, $line-height) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $line-height;
+    margin-bottom: 0.5em;
+  }

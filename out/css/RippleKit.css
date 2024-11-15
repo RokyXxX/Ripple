@@ -78,8 +78,10 @@ a:visited {
 }
 
 code {
-  font: "JetBrains Mono";
-  color: #ffffff;
-  padding: 15px;
+  font: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 1em;
   background-color: #212121;
+  padding: 0.25em 0.5em;
+  border-radius: 3px;
 }/*# sourceMappingURL=RippleKit.css.map */

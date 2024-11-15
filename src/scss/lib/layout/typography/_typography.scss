@@ -46,8 +46,10 @@ a {
 }
 
 code {
-    font: 'JetBrains Mono';
-    color: $white;
-    padding: 15px;
+    font: 'JetBrains Mono', monospace;
+    font-weight: 400;
+    font-size: 1em;
     background-color: $gray-900;
+    padding: 0.25em 0.5em;
+    border-radius: 3px; 
 }

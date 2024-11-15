@@ -1,0 +1,14 @@
+@import '../../lib/variables/colors';
+
+@function luminance-color($color) {
+    $red: red($color);
+    $green: green($color);
+    $blue: blue($color);
+    $luminance: (0.299 * $red + 0.587 * $green + 0.114 * $blue);
+
+    @if $luminance > 186 {
+        @return $black;
+    } @else {
+        @return $white;
+    }
+}
